@@ -1,0 +1,24 @@
+{
+  "name": "advent-of-code-23",
+  "version": "1.0.0",
+  "description": "advent of code solutions 2023",
+  "main": "index.js",
+  "scripts": {
+    "day1": "ts-node day1.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieljmann96/advent-of-code-23.git"
+  },
+  "author": "danieljmann96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieljmann96/advent-of-code-23/issues"
+  },
+  "homepage": "https://github.com/danieljmann96/advent-of-code-23#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
