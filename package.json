@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "advent of code solutions 2023",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "day1": "ts-node day1.ts",
+    "day1": "npx tsx day1.ts",
+    "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +20,13 @@
   },
   "homepage": "https://github.com/danieljmann96/advent-of-code-23#readme",
   "devDependencies": {
-    "ts-node": "^10.9.1",
+    "@types/node": "^20.10.1",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "fs": "^0.0.1-security",
+    "tsx": "^4.6.1",
     "typescript": "^5.3.2"
   }
 }
