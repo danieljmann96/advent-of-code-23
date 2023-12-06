@@ -8,6 +8,7 @@
     "day1": "npx tsx day1.ts",
     "day2": "npx tsx day2.ts",
     "day3": "npx tsx day3.ts",
+    "day4": "npx tsx day4.ts",
     "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,12 +23,14 @@
   },
   "homepage": "https://github.com/danieljmann96/advent-of-code-23#readme",
   "devDependencies": {
+    "@types/lodash": "^4.14.202",
     "@types/node": "^20.10.1",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
     "eslint": "^8.54.0",
     "eslint-config-prettier": "^9.0.0",
     "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
     "tsx": "^4.6.1",
     "typescript": "^5.3.2"
   }
