@@ -11,3 +11,28 @@ export function getAllMatchesWithOverlap(input: string, r: RegExp) {
   }
   return result;
 }
+
+export function findLCM(numbers: number[]) {
+  function gcd(a: number, b: number): number {
+    return b === 0 ? a : gcd(b, a % b);
+  }
+
+  function lcm(a: number, b: number) {
+    return (a * b) / gcd(a, b);
+  }
+
+  function lcmOfArray(numbers: number[]) {
+    let result = numbers[0];
+    for (let i = 1; i < numbers.length; i++) {
+      result = lcm(result, numbers[i]);
+    }
+    return result;
+  }
+
+  if (numbers.length < 2) {
+    console.error('Array should have at least two numbers');
+    return;
+  }
+
+  return lcmOfArray(numbers);
+}
