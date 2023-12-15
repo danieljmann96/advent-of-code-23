@@ -14,6 +14,7 @@
     "day7": "npx tsx day7.ts",
     "day8": "npx tsx day8.ts",
     "day9": "npx tsx day9.ts",
+    "day10": "npx tsx day10.ts",
     "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,6 +33,7 @@
     "@types/node": "^20.10.1",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
+    "chalk": "^5.3.0",
     "eslint": "^8.54.0",
     "eslint-config-prettier": "^9.0.0",
     "fs": "^0.0.1-security",
