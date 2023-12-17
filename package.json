@@ -15,6 +15,7 @@
     "day8": "npx tsx day8.ts",
     "day9": "npx tsx day9.ts",
     "day10": "npx tsx day10.ts",
+    "day11": "npx tsx day11.ts",
     "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

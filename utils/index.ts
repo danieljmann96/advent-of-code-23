@@ -36,3 +36,9 @@ export function findLCM(numbers: number[]) {
 
   return lcmOfArray(numbers);
 }
+
+export function isBetween(a: number, b: number, c: number) {
+  var minValue = Math.min(b, c);
+  var maxValue = Math.max(b, c);
+  return a >= minValue && a <= maxValue;
+}
